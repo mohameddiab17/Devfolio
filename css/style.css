@@ -1,0 +1,419 @@
+/* ! SHARED */
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*? GLABAL */
+:root {
+    --main-color: #0078ff;
+}
+
+
+/*! NAV */
+nav .navbar-brand {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+nav .nav-item {
+    color: #fff;
+    padding-inline: .9375rem;
+}
+
+nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+
+nav .navbar a {
+    font-weight: 600;
+    position: relative;
+}
+
+nav .navbar-nav .nav-link {
+    position: relative;
+}
+
+nav .navbar-nav .nav-link a::before {
+    content: "";
+    width: 100%;
+    height: 50px;
+    color: green;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+/*! HEADER */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
+    background-position: centerc center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.animation-span::after {
+    content: "";
+    width: 3px;
+    height: 110%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    animation: typing 11s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "D|";
+    }
+
+    2.5% {
+        content: "De|";
+    }
+
+    5% {
+        content: "Dev|";
+    }
+
+    7.5% {
+        content: "Deve|";
+    }
+
+    10% {
+        content: "Devel|";
+    }
+
+    12.5% {
+        content: "Develo|";
+    }
+
+    15% {
+        content: "Develop|";
+    }
+
+    17.5% {
+        content: "Develope|";
+    }
+
+    20% {
+        content: "Developer|";
+    }
+
+    22.5% {
+        content: "Develope|";
+    }
+
+    25% {
+        content: "Develop|";
+    }
+
+    27.5% {
+        content: "Develo|";
+    }
+
+    32.5% {
+        content: "Devel|";
+    }
+
+    35% {
+        content: "Deve|";
+    }
+
+    37.5% {
+        content: "Dev|";
+    }
+
+    40% {
+        content: "De|";
+    }
+
+    42.5% {
+        content: "De|";
+    }
+
+    45% {
+        content: "Des|";
+    }
+
+    47.5% {
+        content: "Desi|";
+    }
+
+    50% {
+        content: "Desig|";
+    }
+
+    52.5% {
+        content: "Desig|";
+    }
+
+    55% {
+        content: "Designe|";
+    }
+
+    57.5% {
+        content: "Designer|";
+    }
+
+    60% {
+        content: "Designe|";
+    }
+
+    62.5% {
+        content: "Design|";
+    }
+
+    65% {
+        content: "Desig|";
+    }
+
+    67.5% {
+        content: "Desi|";
+    }
+
+    70% {
+        content: "Des|";
+    }
+
+    72.5% {
+        content: "De|";
+    }
+
+    75% {
+        content: "D|";
+    }
+
+    77.5% {
+        content: "F|";
+    }
+
+    80% {
+        content: "Fr|";
+    }
+
+    82.5% {
+        content: "Fre|";
+    }
+
+    85% {
+        content: "Free|";
+    }
+
+    87.5% {
+        content: "Freel|";
+    }
+
+    90% {
+        content: "Freela|";
+    }
+
+    92.5% {
+        content: "Freelan|";
+    }
+
+    95% {
+        content: "Freelanc|";
+    }
+
+    97.5% {
+        content: "Freelance|";
+    }
+
+    100% {
+        content: "Freelancer|";
+    }
+}
+
+/* ? ABOUT */
+
+.skills-level {
+    width: 100%;
+    height: 15px;
+    background-color: #CDE1F8;
+    margin: 0.5rem 0 1.2rem 0;
+}
+
+.html-layer {
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+
+.css-layer {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+
+.php-layer {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+
+.js-layer {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+
+.about-title {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.about-title h2::after {
+    content: '';
+    width: 20%;
+    height: 3px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+/* ! SERVICES */
+.section-title p::after {
+    content: '';
+    width: 3%;
+    height: 4px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    left: 48.5%;
+
+}
+
+.services-icon {
+    width: 100px;
+    height: 100px;
+    border: 8px solid var(--main-color);
+
+}
+
+.services-box:hover i {
+    transition: all 0.7s;
+}
+
+.services-box:hover i {
+    border: 8px solid #cde1f8;
+    background-color: var(--main-color);
+}
+
+/* ? WORK */
+
+#work {
+    background-image: url("../images/post-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#work .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 120, 255, 0.5);
+}
+
+#work .item {
+    position: relative;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#work .item p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#work .work-icon {
+    border: 5px solid #CDE1F8;
+    margin-bottom: .9375rem;
+}
+
+/* ! BLOG */
+
+#blog .item-cap :nth-child(2) {
+    color: var(--main-color);
+}
+
+#blog .item-cap {
+    padding: 10px 5px;
+}
+
+#blog .blog-icon {
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+#blog .item img {
+    transition: scale 0.7s;
+}
+
+#blog .item:hover img {
+    scale: 1.3;
+}
+
+#blog .item {
+    box-shadow: 0px 3px 3px #888;
+}
+
+/* ? TESTIMONIAL */
+
+.center-span {
+    background-color: var(--main-color);
+}
+
+#testimonial {
+    background-color: #F5F5F5;
+}
+
+#testimonial .item {
+    background-color: #fff;
+    padding: 0px -12px;
+    box-shadow: 0 0 5px #888;
+}
+
+#testimonial .item-footer-img img {
+    width: 50px;
+    height: 50px;
+}
+
+#testimonial .item-cap p {
+    color: #4f4f4f;
+}
+
+#testimonial .item h4 {
+    transition: color 0.6s;
+}
+
+#testimonial .item:hover h4 {
+    color: var(--main-color);
+}
+
+#testimonial .item-footer {
+    border-top: 1px solid #4f4f4f;
+    background-color: #F8F8F8;
+}
