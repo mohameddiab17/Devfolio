@@ -15,6 +15,3 @@ A sleek and professional developer portfolio template designed to showcase skill
 - **JavaScript**: Adds dynamic functionality and interactivity.
 - **Bootstrap**: Enhances layout and ensures mobile responsiveness.
 
----
-
-Let me know if you'd like help creating a LinkedIn post or further edits!
